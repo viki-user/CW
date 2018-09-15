@@ -1,0 +1,22 @@
+#footer{
+	width:99.40% ;
+	background-color: #d9d9d9 ;
+	border-radius: 1em ;
+	float: left ;
+	border: 4px #e6e6e6 solid ;
+	margin-left: 0px ;
+}
+img{
+	display:inline-block ;
+	vertical-align: middle;
+	height: 55px ;
+	width: 55px ;
+}
+span{
+	display:inline-block ;
+	vertical-align: middle;
+}
+
+li{
+	display: inline;
+	}

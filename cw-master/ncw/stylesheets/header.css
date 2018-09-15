@@ -1,0 +1,153 @@
+body{
+	background-color: #e6e6e6;
+	margin: 0 ;
+}
+
+#headlink{
+	text-decoration: none ;
+	box-shadow: none ;
+}
+
+#headlink:hover{
+	text-decoration: none ;
+  box-shadow: none ;
+}
+
+
+.head-logo{
+	width:99.40%  ;
+	background-color: #002b80 ;
+	border-radius: 1em ;
+	margin-left: 5px ;
+}
+
+.head-logo h1{
+	text-align:center ;
+	text-transform:uppercase ;
+	font-style:italic ;
+	font-family: 'Kalam', cursive;
+	font-style: normal;
+	font-variant: normal;
+	color: white ;
+}
+.head-logo span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.head-logo img{
+	display: inline-block;
+	vertical-align: middle;
+	height: 58px ;
+	width: 58px ;
+}
+
+button.accordion {
+    background-color: #666666;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1em;
+    width: 100%;
+    border: none;
+    text-align: left;
+	font-family: Aerial;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+	border-radius: 1em ;
+	border: 4px #e6e6e6 solid ;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+button.accordion:after {
+    content: '\02c5';
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\02c4";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+	border-radius: 1em ;
+
+}
+
+#container{
+	width:100% ;
+}
+
+#side-bar{
+	width:30% ;
+	margin-top: 6px ;
+	min-height:28em ;
+	float:left ;
+}
+
+ul.panel-ul {
+	list-style-type: none ;
+}
+
+li{
+	padding: 0.5em ;
+}
+
+a{
+	text-decoration:none ;
+	color: black ;
+	display: block ;
+	width: auto ;
+	border-radius: 10px ;
+}
+
+a:hover {
+	box-shadow: 0px 9px 10px #cccccc ;
+}
+
+
+.acc-link {
+	text-indent: 5%;
+}
+
+.acc-a {
+	margin-left: -10% ;
+}
+
+.acc-a:hover{
+	background-color: #bcc ;
+	color: white ;
+	font-size: 19px ;
+}
+
+.logout{
+	background-color: #ff3333;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 1em;
+	width:auto;
+	border: none;
+	text-align: left;
+	font-family: Aerial;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	border-radius: 1em ;
+	border: 4px #e6e6e6 solid ;
+	text-align: center;
+}
+
+.logout:hover{
+	background-color: #ff6666 ;
+	box-shadow: none ;
+}
